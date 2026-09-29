@@ -9,7 +9,37 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "mechanics": "Mechanics",
+    "progression": "Progression",
+    "achievements": "Achievements",
+    "videos": "Videos",
+    "steam": "Steam"
+  },
+  "guide": {
+    "overviewTitle": "It's Fine Guide — Beginner Walkthrough, Tips & Tutorials",
+    "overviewDescription": "New to It's Fine? Start here for the beginner guide, full walkthrough and tips covering the coding loop, upgrade stations, Sleephours, the Dreamtree and the early mistakes to avoid."
+  },
+  "mechanics": {
+    "overviewTitle": "It's Fine Mechanics — Idle, Incremental & Automation Systems",
+    "overviewDescription": "How It's Fine actually works: the incremental idle loop, code automation, evolving stations and the making-a-game crunch systems that drive every run."
+  },
+  "progression": {
+    "overviewTitle": "It's Fine Progression — Upgrades, Unlocks, Save & Endings",
+    "overviewDescription": "Plan your run with It's Fine progression and upgrade guides, unlock lists, save-file notes and every ending explained."
+  },
+  "achievements": {
+    "overviewTitle": "It's Fine Achievements — All 67 Unlocks, Completion & Finale",
+    "overviewDescription": "Track down every It's Fine achievement with full unlock lists, a completion checklist and finale guides for 100% progress."
+  },
+  "videos": {
+    "overviewTitle": "It's Fine Videos — Trailer, Part 1 & Gameplay Breakdowns",
+    "overviewDescription": "Watch the It's Fine trailer, Part 1 walkthrough, episode breakdowns and gameplay videos, all collected in one place."
+  },
+  "steam": {
+    "overviewTitle": "It's Fine on Steam — Release, Demo, Developer & Reviews",
+    "overviewDescription": "Everything about It's Fine on Steam: the launch date, the playable demo, developer Buma Games and what players say in their reviews."
   },
   "home": {
     "meta": {
@@ -449,7 +479,6 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -478,12 +507,11 @@
     "playGame": "Play It's Fine on Steam",
     "officialDiscord": "Community Discord",
     "officialYoutube": "Official YouTube",
-    "vvBuilder": "Community Tools",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Tips & Secrets",
     "privacyPolicy": "Privacy Policy",
-    "termsOfService": "Terms of Service"
+    "termsOfService": "Terms of Service",
+    "mechanicsGuides": "Game Mechanics",
+    "progressionGuides": "Progression",
+    "achievementGuides": "Achievements"
   }
 }

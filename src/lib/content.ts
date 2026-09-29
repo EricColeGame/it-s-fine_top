@@ -235,41 +235,19 @@ export interface NavGroup {
   links: Array<{ label: string; href: string; badge?: string }>;
 }
 
-// 分组标题映射：slug → 人类可读标题（默认英文）
+// 分组标题映射：slug → 人类可读标题（与 NAVIGATION_CONFIG 的分类 slug 对齐）
 const GROUP_TITLES: Record<string, string> = {
-  bosses: "Bosses",
-  races: "Races",
-  maps: "Maps & Areas",
-  skills: "Skills",
-  codes: "Codes",
   guide: "Getting Started",
-  "tier-list": "Tier Lists",
+  mechanics: "Game Mechanics",
+  progression: "Progression",
+  achievements: "Achievements",
+  videos: "Videos",
+  steam: "Steam",
 };
 
-// 日文分组标题映射
-const GROUP_TITLES_JA: Record<string, string> = {
-  bosses: "ボス",
-  races: "種族",
-  maps: "マップ & エリア",
-  skills: "スキル",
-  codes: "コード",
-  guide: "初心者ガイド",
-  "tier-list": "Tier List",
-};
-
-// locale → 分组标题映射
-const GROUP_TITLES_BY_LOCALE: Record<string, Record<string, string>> = {
-  ja: GROUP_TITLES_JA,
-};
-
-// locale → "Overview" 翻译
-const OVERVIEW_LABEL_BY_LOCALE: Record<string, string> = {
-  ja: "一覧",
-};
-
-// 分组排序顺序
+// 分组排序顺序（与 NAVIGATION_CONFIG 的分类顺序一致）
 const GROUP_ORDER: string[] = [
-  "guide", "races", "bosses", "maps", "skills", "codes", "tier-list",
+  "guide", "mechanics", "progression", "achievements", "videos", "steam",
 ];
 
 /**
@@ -296,7 +274,7 @@ export function getDynamicNavigation(language: Locale = "en"): NavGroup[] {
 
     const links: NavGroup["links"] = [];
     // 添加 Overview 入口（按 locale 翻译）
-    const overviewLabel = OVERVIEW_LABEL_BY_LOCALE[language] || "Overview";
+    const overviewLabel = "Overview";
     links.push({ label: overviewLabel, href: `/${groupSlug}` });
 
     for (const segments of slugPaths) {
@@ -323,9 +301,7 @@ export function getDynamicNavigation(language: Locale = "en"): NavGroup[] {
       links.push({ label: title, href: `/${groupSlug}/${articleSlug}`, badge });
     }
 
-    // 优先使用 locale 特定标题，否则回退到英文默认
-    const localTitles = GROUP_TITLES_BY_LOCALE[language] || {};
-    const groupTitle = localTitles[groupSlug] || GROUP_TITLES[groupSlug] || groupSlug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+    const groupTitle = GROUP_TITLES[groupSlug] || groupSlug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
 
     groups.push({
       title: groupTitle,

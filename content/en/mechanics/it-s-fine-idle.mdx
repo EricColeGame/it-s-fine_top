@@ -1,0 +1,117 @@
+export const metadata = {
+  title: "Rough Cold Idle Then It's Fine Idle: Why Your Engine Smooths Out",
+  description: "A rough cold idle that clears up into a fine idle after warm-up has real causes. Learn the tests, parts, and fixes that solve it fast.",
+  category: "mechanics",
+  date: "2026-09-29",
+}
+
+Few things are more annoying than an engine that shakes and chugs for the first few minutes after a cold start, then smooths out like a switch was flipped. Owners describe it a dozen ways: rough idle then it's fine, a cold-start stumble that disappears, or an "it's fine idle" that only shows up once the coolant gauge climbs. Whatever you call it, that pattern isn't random noise — it's a diagnostic clue. The way an engine behaves cold versus warm tells you almost exactly where to look, and it can save you from throwing parts at a problem that never needed them.
+
+## Why Your Engine Idles Rough and Then It's Fine Idle After Warm-Up
+
+Most fuel-injected engines run in two very different modes. On a cold start, the computer runs in **open loop**: it ignores the oxygen sensors, richens the mixture on purpose, and holds a fast idle to light off the catalytic converter. Once coolant temperature crosses a threshold, it switches to **closed loop** and starts trimming fuel based on real oxygen-sensor feedback.
+
+That transition is why a rough cold idle can turn into an it's fine idle within a few minutes. A fault that closed-loop fuel trim can paper over — a small vacuum leak, a slightly lazy sensor, a mildly gummed-up idle air control valve — is glaringly obvious in open loop and nearly invisible once feedback takes over. The same goes for the idle-speed drop: while the engine is in fast idle, a small air leak is a tiny fraction of total airflow. When the throttle closes and RPM drops to base idle, that same leak becomes a much bigger share of the air going in.
+
+| Phase | Fuel strategy | Key sensors | Typical duration | Why faults hide here |
+|---|---|---|---|---|
+| Open loop (cold) | Fixed rich tables, no O2 feedback | ECT, IAT, MAP/MAF, TPS | 30 seconds to several minutes | No correction, so any error shows up immediately |
+| Idle-up transition | Fast idle decays to base idle | IAC, TPS, ECT | 1–5 minutes | Small air leaks become proportionally larger |
+| Closed loop (warm) | Fuel trims adjust in real time | Upstream O2, ECT, MAP/MAF | Rest of the drive | Feedback compensates for small errors |
+| Highway cruise | Trimmed, stable load | O2, MAF/MAP | Continuous | Symptoms often vanish entirely |
+
+## The Most Common Causes When It's Fine Idle After a Few Minutes
+
+Community reports from truck and car forums consistently point to a short list of culprits. In one long-running thread about a 1990s V8 that idled badly for 10–15 minutes and then ran perfectly, the owner replaced the computer, the MAP sensor, and the EGR valve with no improvement — a reminder that the obvious parts aren't always the right ones.
+
+The usual suspects:
+
+- **Vacuum leaks** — cracked intake hoses, brittle PCV lines, leaking intake manifold gaskets, a failing brake booster, or a stuck-open EVAP purge valve.
+- **A dirty or sticking idle air control (IAC) valve** — carbon buildup changes how much air the valve passes at base idle.
+- **Carbon-fouled throttle body** — a ring of deposits around the throttle plate acts like a permanent small air leak.
+- **A biased coolant temperature sensor** — if the computer thinks the engine is colder than it is, it stays rich too long.
+- **A lazy upstream oxygen sensor** — slow switching keeps fuel trims from settling until well after warm-up.
+- **Contaminated MAF or a leaking MAP vacuum hose** — both distort the load signal the computer uses to set fuel.
+- **Ignition wear** — a loose or fouled plug, a tired wire, or a weak coil shows up worst under the rich, cold-start mixture.
+- **A thermostat stuck open** — the engine never reaches normal temperature, so it lingers in a cold-fuel state.
+
+| Symptom detail | Most likely cause | Fastest check |
+|---|---|---|
+| Smooths out after 30–60 seconds | Open-loop richness on a cold engine | Compare fuel trims cold vs. warm |
+| Smooths out after 5–15 minutes | Lazy O2 sensor or stuck-open thermostat | Watch coolant temp and O2 switching |
+| Surges and hunts only at base idle | Vacuum leak or dirty IAC | Vacuum gauge and smoke test |
+| Rich exhaust smell while cold | ECT bias, leaking injector, MAP hose | Check ECT value against actual temp |
+| Intermittent check-engine light around town | O2 or misfire codes set during warm-up | Read stored and pending codes |
+
+## How to Diagnose an Idle That Clears Up (Step-by-Step)
+
+Work from data to parts, never the other way around. If you want a solid technical grounding in how idle speed control and closed-loop fuel management actually work, [this reference on idle speed control](https://en.wikipedia.org/wiki/Idle_speed) is a useful primer before you start.
+
+**Step 1 — Record the symptom.** Note the outdoor temperature, how long the rough period lasts, and whether it ends when the coolant gauge reaches normal. That single detail separates an open-loop problem from a base-idle problem.
+
+**Step 2 — Pull codes, stored and pending.** A code set during warm-up often clears itself before you scan, so check pending codes too.
+
+**Step 3 — Run a vacuum gauge test.** Tee a gauge into an intake vacuum port and watch the needle from cold start through warm-up.
+
+| Gauge reading (in-Hg, sea level) | Needle behavior | What it usually means |
+|---|---|---|
+| 17–22 | Steady | Healthy vacuum — look elsewhere |
+| 15–18 | Slightly low, steady | Minor leak or normal wear; inspect hoses and gaskets |
+| Under 12 | Steady but low | Significant leak, intake gasket, or timing issue |
+| Any | Rapid flutter | Valve sealing problem or a dead cylinder |
+| Any | Dips as idle drops | IAC or base idle set too low |
+
+Altitude matters: subtract roughly one inch of mercury for every 1,000 feet above sea level.
+
+**Step 4 — Compare fuel trims cold and warm.** Large positive trims when cold that shrink to near zero when warm point to unmetered air. Trims that stay high in both states point to fuel delivery.
+
+**Step 5 — Verify sensor inputs against reality.** An infrared thermometer on the thermostat housing versus the coolant temp reading on a scan tool is a two-minute test that catches a biased sensor immediately.
+
+**Step 6 — Check the basics last, not first.** Plugs, wires, air filter, and battery grounds are cheap to inspect and surprisingly often the answer.
+
+## Parts Checklist: What Actually Fixes a Rough-Then-Fine Idle
+
+Once you've confirmed the cause, repair is usually straightforward. Costs below are rough parts-only estimates in US dollars; labor is separate and varies widely by vehicle.
+
+| Component | Failure mode | Parts cost (ballpark) | DIY difficulty |
+|---|---|---|---|
+| Idle air control valve | Carbon gumming, sticky pintle | $40–$120 | Easy |
+| Vacuum lines and PCV hose | Cracks, hardened rubber | $5–$30 | Easy |
+| Intake manifold gaskets | Shrinkage and leaks when cold | $10–$60 | Moderate |
+| Coolant temperature sensor | Reads cold when warm | $15–$50 | Easy |
+| Upstream oxygen sensor | Slow or lazy switching | $40–$150 | Moderate |
+| Thermostat | Stuck open, long warm-up | $15–$60 | Moderate |
+| Spark plugs and wires | Fouling under cold enrichment | $20–$100 | Easy to moderate |
+| Throttle body cleaning | Deposit ring at the plate | $10–$20 in cleaner | Easy |
+
+Cleaning an IAC valve is inexpensive, but do it correctly. Community reports warn that aggressive cleaning or forcing the pintle can damage the valve and make the idle worse than before. Use a sensor-safe cleaner, let it dry fully, and never twist the pintle by hand.
+
+## When It's Fine Idle Is Not Actually Fine
+
+A rough cold idle that clears up is usually a minor fault, but a few patterns deserve a mechanic's attention right away. The difference between "annoying" and "expensive" is often just how long you wait.
+
+| Sign | Likely meaning | Urgency |
+|---|---|---|
+| Rough idle that clears within a few minutes, no codes | Minor air or sensor issue | Low — diagnose when convenient |
+| Flashing check-engine light | Active misfire that can damage the catalytic converter | High — stop driving |
+| Coolant loss with no visible leak | Possible head gasket or intake gasket failure | High |
+| Sweet-smelling white exhaust | Coolant entering combustion | High |
+| Rough idle that no longer clears up | A small fault has become a real one | Moderate to high |
+
+One more note from owner reports: many people chasing this symptom end up replacing the MAP sensor, EGR valve, or even the engine computer with no change. The pattern that keeps showing up in forum threads is that the real fix was usually a vacuum leak, a crusty oxygen-sensor connector, or a dirty IAC — cheap parts that get overlooked because they don't throw a dramatic code.
+
+## FAQ
+
+**Why does my engine idle rough for a few minutes and then it's fine idle after that?**
+Because the engine runs in open loop when cold, using fixed rich fuel tables with no oxygen-sensor feedback. Any small air leak or sensor error shows up immediately. Once the engine warms and switches to closed loop, the computer trims fuel and the symptom disappears.
+
+**Can a vacuum leak cause a rough idle that goes away when warm?**
+Yes, and it's one of the most common causes. Cold rubber and metal shrink slightly, so gaps are larger at startup. As parts expand with heat, the leak seals itself — which is exactly why the rough-then-it's-fine idle pattern is so often traced to intake gaskets or cracked hoses.
+
+**Is it safe to drive if the cold idle is rough but smooths out later?**
+Short trips are usually fine while you diagnose, but don't ignore it indefinitely. A persistent misfire can overheat and destroy a catalytic converter, and an uncorrected rich condition fouls spark plugs and dilutes engine oil. If the check-engine light flashes, stop driving.
+
+**How much does it cost to fix a rough cold idle?**
+Many cases are solved for under $50 in parts — a vacuum line, a gasket, or a can of throttle body cleaner. A new IAC valve, oxygen sensor, or thermostat typically runs $40 to $150 in parts. The real savings come from diagnosing first instead of replacing parts by guesswork.
+
+Start with data, not parts. A vacuum gauge, a scan tool, and twenty minutes of observation will tell you more about a rough-then-fine idle than a parts counter ever will.
