@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn the code, upgrade, sleep loop, get your first stations online, and survive the opening crunch without wasting a run."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Upgrade Priorities",
+          "description": "Compare upgrade paths and multipliers so you know which station to buy next on the road to version 1.0."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Resource Farming",
+          "description": "Keep code, compute, wishlists, and clean energy flowing with reliable production chains and early automation."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in It's Fine."
+          "title": "Prestige & Dreamtree",
+          "description": "Convert finished runs into Sleephours and spend them on permanent Dreamtree upgrades that reshape every restart."
         }
       ]
     },
@@ -66,237 +66,347 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Upgrade Priorities",
+        "Sleephours",
+        "All Achievements"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Start the crunch with a clear route through your first stations, upgrades, and sleep reset.",
+          "href": "/guide/it-s-fine-beginner-guide"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
-        },
-        {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "title": "Upgrade Priorities",
+          "description": "Which stations and multipliers actually pay off during a run.",
+          "href": "/progression/it-s-fine-upgrades"
         },
         {
           "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
-        },
-        {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "title": "Prestige & Dreamtree",
+          "description": "Turn finished runs into Sleephours and permanent meta-upgrades.",
+          "href": "/guide/it-s-fine-walkthrough"
         },
         {
           "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "title": "All 67 Achievements",
+          "description": "Every standard, hidden, and secret unlock with a clean completion route.",
+          "href": "/achievements/it-s-fine-achievements"
+        },
+        {
+          "badge": "New",
+          "title": "Automation Setup",
+          "description": "Build a hands-off production loop that keeps coding while you plan.",
+          "href": "/mechanics/it-s-fine-automation"
         },
         {
           "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "title": "Secrets & Endings",
+          "description": "Hidden interactions, challenges, and every alternate ending.",
+          "href": "/progression/it-s-fine-endings"
+        },
+        {
+          "badge": "Popular",
+          "title": "Core Mechanics",
+          "description": "How actions, resources, progression, and risk fit together.",
+          "href": "/mechanics/it-s-fine-mechanics"
         },
         {
           "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "title": "Release & Updates",
+          "description": "Launch details, pricing, and post-release patches.",
+          "href": "/steam/it-s-fine-release"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Popular",
+          "title": "Steam Review",
+          "description": "What players think of the dog-led dev crunch idle game.",
+          "href": "/steam/it-s-fine-steam"
         }
       ]
     },
     "aboutGame": {
       "title": "What is It's Fine?",
       "paragraphs": [
-        "It's Fine is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "It's Fine is a casual idle and incremental game about surviving the final 24 hours of an indie game development crunch. You play the developer, your project manager is Joe, a demanding dog with strong opinions about shipping on time, and your goal is to deliver a stable build before the clock runs out. It launched on Steam on September 23, 2026, developed by Buma Games and published with SpaceJazz.",
+        "Under the jokes sits a layered production sim. You code at the computer, invest in upgrade stations, and unlock evolving mechanics such as the wishlist botfarm, the legendary Voodoo Kraken, and Peanut the squirrel. When a run slows down you sleep to earn Sleephours, then spend them in the Dreamtree on permanent bonuses, new mechanics, and effects that carry across every restart. With 67 achievements, hidden secrets, and multiple endings, each cycle changes how the next one plays."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Buma Games"
+        },
+        {
+          "label": "Publisher",
+          "value": "SpaceJazz"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "Steam (PC)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Idle / Incremental"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Release",
+          "value": "September 23, 2026"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Price",
+          "value": "$9.99"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Achievements",
+          "value": "67"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Steam Rating",
+          "value": "Very Positive"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore It's Fine Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Everything you need to ship version 1.0: beginner steps, upgrade priorities, prestige planning, resource chains, secrets, and every achievement in It's Fine.",
       "modules": [
         {
           "order": 1,
-          "name": "It's Fine Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/its-fine-codes",
-          "displayType": "code-box",
+          "name": "It's Fine Beginner Guide",
+          "description": "A beginner-friendly walkthrough of the code, upgrade, sleep loop, covering your first stations, early purchases, and the mistakes that stall a fresh run.",
+          "href": "/guide/it-s-fine-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Confirm the Steam build and set text size, color alternatives, and volume before you start."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Hold the computer to code and finish the opening tutorial objective."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Buy your first production upgrade so income continues while you plan the next move."
+            },
+            {
+              "label": "4",
+              "detail": "Unlock cloud services and the botfarm to add a second automated resource layer."
+            },
+            {
+              "label": "5",
+              "detail": "Check for a separate activation button after buying or installing a station."
+            },
+            {
+              "label": "6",
+              "detail": "Sleep once the run slows and a lasting bonus is worth more than short-term output."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/its-fine-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "It's Fine Upgrades Guide",
+          "description": "Ranks the upgrade and station choices that actually move a run forward, so you spend code on compounding output instead of cosmetic dead ends.",
+          "href": "/progression/it-s-fine-upgrades",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "S",
+              "detail": "Multipliers and auto-tick upgrades that compound across the whole room."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "A",
+              "detail": "Station efficiency and cloud compute that raise output before major unlocks."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "B",
+              "detail": "Cheap click-power boosts that carry the opening minutes and little else."
+            },
+            {
+              "label": "C",
+              "detail": "Cosmetic room items with no measurable effect on the production curve."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/its-fine-tier-list",
-          "displayType": "tier-grid",
+          "name": "It's Fine Prestige Guide",
+          "description": "Explains the prestige layer, from sleeping for Sleephours to spending them in the Dreamtree on permanent meta-upgrades that carry across runs.",
+          "href": "/guide/it-s-fine-walkthrough",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Sleep",
+              "detail": "Ends the current run and converts your progress into Sleephours."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Sleephours",
+              "detail": "Prestige currency described in-game as the most valuable resource a developer has."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Dreamtree",
+              "detail": "Permanent meta-upgrade tree that unlocks new mechanics and lasting effects."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Overdrive",
+              "detail": "Challenge objectives that push a run further and unlock special effects."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/its-fine-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "It's Fine Achievements Guide",
+          "description": "Tracks all 67 Steam achievements, separates the free unlocks from the grindy ones, and maps a clean route to full completion.",
+          "href": "/achievements/it-s-fine-achievements",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "67 Total",
+              "detail": "52 standard, 14 hidden, and 1 secret achievement in the launch build."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "Safe Hunt",
+              "detail": "Nothing is permanently missable, so cleanup can wait until after the credits."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "Overdrive",
+              "detail": "Challenge objectives that push runs further and unlock special effects."
+            },
+            {
+              "label": "Joe Skins",
+              "detail": "Several unlocks award cosmetic skins for Joe, your dog project manager."
+            },
+            {
+              "label": "Coffee",
+              "detail": "A Coffee Machine unlock sits behind one of the rarer milestones."
+            },
+            {
+              "label": "Checklist",
+              "detail": "Hidden and secret entries stay invisible until you actually earn them."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/its-fine-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "It's Fine Secrets Guide",
+          "description": "Points to the hidden interactions, optional challenges, and alternate endings that most players never see on a first playthrough.",
+          "href": "/progression/it-s-fine-endings",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Endings",
+              "detail": "Multiple alternate endings depend on how you deliver version 1.0."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Secrets",
+              "detail": "Hidden interactions and unusual station behavior reward patient curiosity."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Challenges",
+              "detail": "Optional objectives such as setting the room on fire unlock special effects."
+            },
+            {
+              "label": "Voodoo",
+              "detail": "The Voodoo Kraken is one of the strangest hidden systems you can tame."
+            },
+            {
+              "label": "Peanut",
+              "detail": "Peanut the squirrel mutates and starts firing lightning around the studio."
+            },
+            {
+              "label": "Credits",
+              "detail": "Post-credits content keeps every secret obtainable after the main goal."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/its-fine-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "It's Fine Resources Guide",
+          "description": "Breaks down every resource chain in the room, from raw code to compute, wishlists, clean energy, and prestige currency.",
+          "href": "/mechanics/it-s-fine-automation",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "Code",
+              "detail": "Your first resource, produced by holding the computer and later by automated stations."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Compute",
+              "detail": "Cloud services turn code and infrastructure into compute for deeper upgrades."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Wishlists",
+              "detail": "The marketing botfarm generates wishlists as a separate automated currency."
+            },
+            {
+              "label": "Energy",
+              "detail": "Peanut the squirrel supplies clean energy until he evolves into a lightning form."
+            },
+            {
+              "label": "Sleephours",
+              "detail": "Prestige currency earned by sleeping and spent on permanent Dreamtree nodes."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "It's Fine Characters Guide",
+          "description": "Introduces the cast that gives the crunch its personality, including Joe the project-manager dog, Peanut, and the Voodoo Kraken.",
+          "href": "/mechanics/it-s-fine-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Developer",
+              "detail": "You play the unnamed indie developer racing the final 24-hour crunch."
+            },
+            {
+              "label": "Joe",
+              "detail": "Your project manager is a demanding dog with strong opinions about deadlines."
+            },
+            {
+              "label": "Peanut",
+              "detail": "A squirrel that produces clean energy, then evolves into a chaotic lightning form."
+            },
+            {
+              "label": "Kraken",
+              "detail": "The Voodoo Kraken is a legendary creature you tame for unique resources."
+            },
+            {
+              "label": "Marketing",
+              "detail": "The marketing team turns botfarm wishlists into automated promotional output."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "It's Fine Updates Guide",
+          "description": "Collects release news, patch notes, and post-launch changes so you can track how It's Fine keeps evolving after launch.",
+          "href": "/steam/it-s-fine-release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Launch",
+              "detail": "It's Fine released on Steam on September 23, 2026 at $9.99."
+            },
+            {
+              "label": "10K Sales",
+              "detail": "The two-person team passed 10,000 copies sold within about 24 hours."
+            },
+            {
+              "label": "Demo",
+              "detail": "A Steam demo build lets you test the opening crunch before you buy."
+            },
+            {
+              "label": "Patches",
+              "detail": "Balance changes and new mechanics keep arriving after release."
+            },
+            {
+              "label": "Reviews",
+              "detail": "The Steam page holds a Very Positive rating across hundreds of reviews."
             }
           ]
         }
@@ -308,23 +418,27 @@
       "items": [
         {
           "question": "What is It's Fine?",
-          "answer": "It's Fine is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "It's Fine is a casual idle and incremental game about surviving the final 24 hours of an indie game development crunch. You play the developer, your project manager is a dog named Joe, and the goal is to ship a stable build before the clock runs out."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Who developed It's Fine and where can I play it?",
+          "answer": "It's Fine was developed by Buma Games and published by Buma Games with SpaceJazz. It launched on Steam on September 23, 2026 for $9.99, with a 10% introductory discount through October 7."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How does progression work in It's Fine?",
+          "answer": "In It's Fine you code at the computer, invest in upgrade stations, and unlock mechanics that change how resources are produced. When a run slows down, you sleep to earn Sleephours and spend them in the Dreamtree for permanent upgrades."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "What are Sleephours and the Dreamtree in It's Fine?",
+          "answer": "Sleephours are It's Fine's prestige currency, earned by sleeping at the end of a run. The Dreamtree is the meta-progression tree where you spend them on permanent bonuses, new mechanics, and effects that carry across every restart."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How many achievements does It's Fine have?",
+          "answer": "It's Fine ships with 67 Steam achievements: 52 standard, 14 hidden, and 1 secret. None of them are permanently missable, so completion cleanup can happen after you finish the game."
+        },
+        {
+          "question": "Does It's Fine have multiple endings and secrets?",
+          "answer": "Yes. It's Fine includes hidden secrets, optional challenge objectives, and multiple alternate endings tied to how you deliver version 1.0, which gives completionists a reason to keep running new cycles."
         }
       ]
     },
