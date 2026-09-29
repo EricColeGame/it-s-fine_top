@@ -27,6 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     manifest: "/manifest.json",
     title: { default: "It's Fine Wiki", template: "%s" },
     description: "Explore It's Fine Wiki for gameplay guides, walkthroughs, story details, tips, and helpful information to understand the game's unique experience.",
+    keywords: ["It's Fine", "It's Fine Wiki", "It's Fine guide", "It's Fine walkthrough", "its fine game", "it s fine wiki", "indie game"],
     openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
     twitter: { card: "summary_large_image", images: [image] },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
