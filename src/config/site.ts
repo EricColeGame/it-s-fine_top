@@ -1,3 +1,5 @@
+import { routing } from "@/i18n/routing";
+
 export interface SiteConfig {
   name: string;
   shortName: string;
@@ -28,6 +30,6 @@ export const siteConfig: SiteConfig = {
   supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://it-s-fine.top").hostname.replace(/^www\./, "")}`,
   gameUrl: "https://store.steampowered.com/app/3936270/Its_Fine/",
   heroVideoId: "uFQEe9oKYsk", // It's Fine Part 1 - 100% Full Game Walkthrough (No Commentary)
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: routing.locales,
   defaultLocale: "en",
 };
