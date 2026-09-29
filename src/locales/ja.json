@@ -1,1 +1,517 @@
-{}
+{
+  "site": {
+    "name": "It's Fine Wiki",
+    "shortName": "It's Fine",
+    "tagline": "ガイド、攻略、ストーリー＆エンディング",
+    "description": "It's Fine の総合ガイド！このインディー感動作について、ゲームプレイ攻略、ストーリーの詳細、エンディング、実績、秘密、進行ガイドをまとめて紹介します。",
+    "legalNotice": "非公式ファンウィキ。プレイヤーが、プレイヤーのために作っています。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替え",
+    "guide": "ガイド",
+    "mechanics": "メカニクス",
+    "progression": "進行",
+    "achievements": "実績",
+    "videos": "動画",
+    "steam": "Steam"
+  },
+  "guide": {
+    "overviewTitle": "It's Fine ガイド — 初心者攻略、コツ＆チュートリアル",
+    "overviewDescription": "It's Fine を始めたばかりですか？コーディングループ、アップグレードステーション、Sleephours、Dreamtree、そして避けるべき序盤のミスを扱う初心者ガイド、完全攻略、コツをここから始めましょう。"
+  },
+  "mechanics": {
+    "overviewTitle": "It's Fine メカニクス — アイドル、インクリメンタル＆自動化システム",
+    "overviewDescription": "It's Fine の仕組みを解説します。インクリメンタルなアイドルループ、コードの自動化、進化するステーション、そして毎回のプレイを動かすゲーム制作クランチのシステムを紹介します。"
+  },
+  "progression": {
+    "overviewTitle": "It's Fine 進行 — アップグレード、アンロック、セーブ＆エンディング",
+    "overviewDescription": "It's Fine の進行とアップグレードガイド、アンロック一覧、セーブファイルのメモ、すべてのエンディング解説でプレイを計画しましょう。"
+  },
+  "achievements": {
+    "overviewTitle": "It's Fine 実績 — 全67個のアンロック、コンプリート＆フィナーレ",
+    "overviewDescription": "It's Fine の実績をすべて回収しましょう。完全なアンロック一覧、コンプリートチェックリスト、100%達成のためのフィナーレガイドを掲載しています。"
+  },
+  "videos": {
+    "overviewTitle": "It's Fine 動画 — トレーラー、Part 1＆ゲームプレイ解説",
+    "overviewDescription": "It's Fine のトレーラー、Part 1 攻略、エピソード解説、ゲームプレイ動画を一か所にまとめました。"
+  },
+  "steam": {
+    "overviewTitle": "Steam の It's Fine — リリース、体験版、開発元＆レビュー",
+    "overviewDescription": "Steam の It's Fine に関するすべて。発売日、プレイできる体験版、開発元 Buma Games、そしてプレイヤーのレビュー評価を紹介します。"
+  },
+  "home": {
+    "meta": {
+      "title": "It's Fine Wiki — ガイド、ゲームプレイ＆攻略",
+      "description": "It's Fine Wiki で、ゲームプレイガイド、攻略、ストーリーの詳細、コツ、そしてこのゲーム独自の体験を理解するための役立つ情報を探しましょう。"
+    },
+    "hero": {
+      "eyebrow": "インディー感動作",
+      "title": "It's Fine Wiki",
+      "description": "It's Fine は、感情的な体験、探索、そして独特な雰囲気と物語の裏にある意味の発見に焦点を当てたインディースタイルのゲームです。",
+      "stats": [
+        "完全攻略",
+        "ストーリー＆エンディング",
+        "実績",
+        "コツ＆秘密"
+      ],
+      "primaryCta": "完全攻略",
+      "secondaryCta": "ストーリー＆エンディング",
+      "tertiaryCta": "Steam でプレイ",
+      "videoLabel": "ゲームプレイ攻略"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "あなたの It's Fine の旅",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "コード、アップグレード、睡眠のループを学び、最初のステーションを稼働させ、序盤のクランチを1回のランで無駄なく乗り切りましょう。"
+        },
+        {
+          "number": "2",
+          "title": "アップグレードの優先順位",
+          "description": "アップグレードのルートと倍率を比較し、version 1.0 へ向けて次にどのステーションを買うべきか判断できます。"
+        },
+        {
+          "number": "3",
+          "title": "リソース稼ぎ",
+          "description": "コード、コンピュート、ウィッシュリスト、クリーンエネルギーを、安定した生産チェーンと序盤の自動化で回し続けましょう。"
+        },
+        {
+          "number": "4",
+          "title": "プレステージ＆Dreamtree",
+          "description": "終えたランを Sleephours に変換し、再スタートのたびに形を変える永続的な Dreamtree アップグレードに使いましょう。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "今話題の記事",
+      "quickLinks": [
+        "初心者ガイド",
+        "アップグレードの優先順位",
+        "Sleephours",
+        "すべての実績"
+      ],
+      "cards": [
+        {
+          "badge": "初心者",
+          "title": "初心者ガイド",
+          "description": "最初のステーション、アップグレード、睡眠リセットまでの明確なルートでクランチを始めましょう。",
+          "href": "/guide/it-s-fine-beginner-guide"
+        },
+        {
+          "badge": "更新",
+          "title": "アップグレードの優先順位",
+          "description": "1回のランで実際に効果を発揮するステーションと倍率。",
+          "href": "/progression/it-s-fine-upgrades"
+        },
+        {
+          "badge": "人気",
+          "title": "プレステージ＆Dreamtree",
+          "description": "終えたランを Sleephours と永続的なメタアップグレードに変えましょう。",
+          "href": "/guide/it-s-fine-walkthrough"
+        },
+        {
+          "badge": "人気",
+          "title": "全67実績",
+          "description": "標準・隠し・シークレットのすべてのアンロックと、効率的なコンプリートルート。",
+          "href": "/achievements/it-s-fine-achievements"
+        },
+        {
+          "badge": "新着",
+          "title": "自動化の設定",
+          "description": "計画中もコーディングが進む、手放しの生産ループを構築しましょう。",
+          "href": "/mechanics/it-s-fine-automation"
+        },
+        {
+          "badge": "人気",
+          "title": "秘密＆エンディング",
+          "description": "隠された相互作用、チャレンジ、そしてすべての別エンディング。",
+          "href": "/progression/it-s-fine-endings"
+        },
+        {
+          "badge": "人気",
+          "title": "コアメカニクス",
+          "description": "アクション、リソース、進行、リスクがどう関わり合うのか。",
+          "href": "/mechanics/it-s-fine-mechanics"
+        },
+        {
+          "badge": "新着",
+          "title": "リリース＆アップデート",
+          "description": "発売情報、価格、リリース後のパッチ。",
+          "href": "/steam/it-s-fine-release"
+        },
+        {
+          "badge": "人気",
+          "title": "Steam レビュー",
+          "description": "犬が仕切る開発クランチのアイドルゲームを、プレイヤーはどう評価しているのか。",
+          "href": "/steam/it-s-fine-steam"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "It's Fine とは？",
+      "paragraphs": [
+        "It's Fine は、インディーゲーム開発のクランチ（徹夜作業）最後の24時間を生き延びることをテーマにした、カジュアルなアイドル＆インクリメンタルゲームです。プレイヤーは開発者を演じ、プロジェクトマネージャーは納期に強いこだわりを持つ要求の多い犬、Joe。目標はタイムリミットが切れる前に安定したビルドを届けることです。2026年9月23日に Steam でリリースされ、開発は Buma Games、パブリッシュは SpaceJazz との共同で行われました。",
+        "ジョークの下には、重層的な生産シミュレーションが隠れています。パソコンに向かってコードを書き、アップグレードステーションに投資し、ウィッシュリストのボットファーム、伝説の Voodoo Kraken、リスの Peanut といった進化するメカニクスを解放していきます。ランが停滞したら眠って Sleephours を稼ぎ、Dreamtree で永続ボーナス、新しいメカニクス、再スタートのたびに引き継がれる効果に使いましょう。67個の実績、隠された秘密、複数のエンディングがあり、1サイクルごとに次のプレイの形が変わります。"
+      ],
+      "stats": [
+        {
+          "label": "開発元",
+          "value": "Buma Games"
+        },
+        {
+          "label": "パブリッシャー",
+          "value": "SpaceJazz"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Steam (PC)"
+        },
+        {
+          "label": "ジャンル",
+          "value": "アイドル / インクリメンタル"
+        },
+        {
+          "label": "リリース",
+          "value": "2026年9月23日"
+        },
+        {
+          "label": "価格",
+          "value": "$9.99"
+        },
+        {
+          "label": "実績",
+          "value": "67"
+        },
+        {
+          "label": "Steam 評価",
+          "value": "非常に好評"
+        }
+      ],
+      "cta": "すべてのガイドを見る"
+    },
+    "explore": {
+      "title": "It's Fine Wiki を探索",
+      "description": "version 1.0 を出荷するために必要なすべて。初心者の手順、アップグレードの優先順位、プレステージ計画、リソースチェーン、秘密、そして It's Fine のすべての実績を紹介します。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "It's Fine 初心者ガイド",
+          "description": "コード、アップグレード、睡眠のループを扱う初心者向け攻略。最初のステーション、序盤の購入、新規ランが止まってしまうミスまで解説します。",
+          "href": "/guide/it-s-fine-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Steam 版のビルドを確認し、開始前に文字サイズ、色の代替設定、音量を調整しましょう。"
+            },
+            {
+              "label": "2",
+              "detail": "パソコンを押し続けてコードを書き、最初のチュートリアル目標を達成しましょう。"
+            },
+            {
+              "label": "3",
+              "detail": "最初の生産アップグレードを購入し、次の一手を考えている間も収入が続くようにしましょう。"
+            },
+            {
+              "label": "4",
+              "detail": "クラウドサービスとボットファームを解放し、2つ目の自動リソース層を追加しましょう。"
+            },
+            {
+              "label": "5",
+              "detail": "ステーションを購入・設置した後は、別途アクティベートボタンがないか確認しましょう。"
+            },
+            {
+              "label": "6",
+              "detail": "ランが停滞し、短期的な生産量より永続ボーナスの方が価値が高くなったら眠りましょう。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "It's Fine アップグレードガイド",
+          "description": "実際にランを前進させるアップグレードとステーションの選択をランク付けし、見た目だけの行き止まりではなく複利的に伸びる生産にコードを使えるようにします。",
+          "href": "/progression/it-s-fine-upgrades",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "部屋全体に複利的に効く倍率と自動ティックのアップグレード。"
+            },
+            {
+              "label": "A",
+              "detail": "大型アンロック前に生産量を引き上げる、ステーション効率とクラウドコンピュート。"
+            },
+            {
+              "label": "B",
+              "detail": "序盤数分を支えるだけで、それ以降はほとんど役に立たない安価なクリック強化。"
+            },
+            {
+              "label": "C",
+              "detail": "生産曲線に測定できる効果がない、見た目だけの部屋アイテム。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "It's Fine プレステージガイド",
+          "description": "睡眠で Sleephours を稼ぎ、ランをまたいで引き継がれる永続メタアップグレードとして Dreamtree で使うまで、プレステージ層を解説します。",
+          "href": "/guide/it-s-fine-walkthrough",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "睡眠",
+              "detail": "現在のランを終了し、進行度を Sleephours に変換します。"
+            },
+            {
+              "label": "Sleephours",
+              "detail": "ゲーム内で「開発者が持つ最も貴重なリソース」と説明されるプレステージ通貨。"
+            },
+            {
+              "label": "Dreamtree",
+              "detail": "新しいメカニクスと永続効果を解放する、永続メタアップグレードツリー。"
+            },
+            {
+              "label": "Overdrive",
+              "detail": "ランをさらに推し進め、特殊効果を解放するチャレンジ目標。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "It's Fine 実績ガイド",
+          "description": "67個の Steam 実績をすべて追跡し、簡単に取れるものと時間のかかるものを分け、完全コンプリートまでの効率的なルートを示します。",
+          "href": "/achievements/it-s-fine-achievements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "全67個",
+              "detail": "リリース版には標準52個、隠し14個、シークレット1個の実績があります。"
+            },
+            {
+              "label": "安全な回収",
+              "detail": "永続的に取り逃すものはないので、クレジット後にまとめて回収できます。"
+            },
+            {
+              "label": "Overdrive",
+              "detail": "ランをさらに推し進め、特殊効果を解放するチャレンジ目標。"
+            },
+            {
+              "label": "Joe のスキン",
+              "detail": "いくつかのアンロックでは、犬のプロジェクトマネージャー Joe のコスメスキンが手に入ります。"
+            },
+            {
+              "label": "コーヒー",
+              "detail": "コーヒーマシンのアンロックは、より珍しいマイルストーンの1つに隠されています。"
+            },
+            {
+              "label": "チェックリスト",
+              "detail": "隠しとシークレットの項目は、実際に獲得するまで見えません。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "It's Fine 秘密ガイド",
+          "description": "初回プレイではほとんどのプレイヤーが見逃す、隠された相互作用、任意チャレンジ、別エンディングを案内します。",
+          "href": "/progression/it-s-fine-endings",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "エンディング",
+              "detail": "version 1.0 の届け方によって複数の別エンディングが分岐します。"
+            },
+            {
+              "label": "秘密",
+              "detail": "隠された相互作用や珍しいステーションの挙動が、根気強い好奇心に報いてくれます。"
+            },
+            {
+              "label": "チャレンジ",
+              "detail": "部屋に火をつけるなど、任意の目標を達成すると特殊効果が解放されます。"
+            },
+            {
+              "label": "Voodoo",
+              "detail": "Voodoo Kraken は、手なずけられる中でも最も奇妙な隠しシステムの1つです。"
+            },
+            {
+              "label": "Peanut",
+              "detail": "リスの Peanut は変異し、スタジオ中に雷を放ち始めます。"
+            },
+            {
+              "label": "クレジット",
+              "detail": "クレジット後のコンテンツにより、メイン目標達成後もすべての秘密を入手できます。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "It's Fine リソースガイド",
+          "description": "生のコードからコンピュート、ウィッシュリスト、クリーンエネルギー、プレステージ通貨まで、部屋の中のすべてのリソースチェーンを分解して解説します。",
+          "href": "/mechanics/it-s-fine-automation",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "コード",
+              "detail": "最初のリソース。パソコンを押し続けることで生産され、後に自動ステーションでも生産されます。"
+            },
+            {
+              "label": "コンピュート",
+              "detail": "クラウドサービスがコードとインフラを、より深いアップグレードのためのコンピュートに変えます。"
+            },
+            {
+              "label": "ウィッシュリスト",
+              "detail": "マーケティングのボットファームが、独立した自動通貨としてウィッシュリストを生み出します。"
+            },
+            {
+              "label": "エネルギー",
+              "detail": "リスの Peanut は、雷の姿に進化するまでクリーンエネルギーを供給します。"
+            },
+            {
+              "label": "Sleephours",
+              "detail": "眠ることで稼ぎ、永続的な Dreamtree ノードに使うプレステージ通貨。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "It's Fine キャラクターガイド",
+          "description": "クランチに個性を与える登場人物を紹介します。プロジェクトマネージャーの犬 Joe、Peanut、そして Voodoo Kraken などです。",
+          "href": "/mechanics/it-s-fine-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "開発者",
+              "detail": "プレイヤーは、最後の24時間のクランチに挑む名もなきインディー開発者を演じます。"
+            },
+            {
+              "label": "Joe",
+              "detail": "あなたのプロジェクトマネージャーは、締め切りに強いこだわりを持つ要求の多い犬です。"
+            },
+            {
+              "label": "Peanut",
+              "detail": "クリーンエネルギーを生み出し、その後カオスな雷の姿へと進化するリス。"
+            },
+            {
+              "label": "Kraken",
+              "detail": "Voodoo Kraken は、独自のリソースのために手なずける伝説の生き物です。"
+            },
+            {
+              "label": "マーケティング",
+              "detail": "マーケティングチームが、ボットファームのウィッシュリストを自動のプロモーション成果に変えます。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "It's Fine アップデートガイド",
+          "description": "リリース情報、パッチノート、発売後の変更をまとめ、It's Fine が発売後もどう進化し続けるかを追えるようにします。",
+          "href": "/steam/it-s-fine-release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "リリース",
+              "detail": "It's Fine は2026年9月23日、$9.99 で Steam にリリースされました。"
+            },
+            {
+              "label": "1万本販売",
+              "detail": "2人体制のチームが、約24時間で1万本を超える販売を達成しました。"
+            },
+            {
+              "label": "体験版",
+              "detail": "Steam の体験版ビルドで、購入前に序盤のクランチを試せます。"
+            },
+            {
+              "label": "パッチ",
+              "detail": "リリース後もバランス調整や新メカニクスが継続的に追加されています。"
+            },
+            {
+              "label": "レビュー",
+              "detail": "Steam ページは数百件のレビューで「非常に好評」を維持しています。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "よくある質問",
+      "description": "It's Fine について最も多い質問に手早く答えます。",
+      "items": [
+        {
+          "question": "It's Fine とは何ですか？",
+          "answer": "It's Fine は、インディーゲーム開発のクランチ最後の24時間を生き延びることをテーマにした、カジュアルなアイドル＆インクリメンタルゲームです。プレイヤーは開発者を演じ、プロジェクトマネージャーは Joe という名の犬。目標はタイムリミットが切れる前に安定したビルドを出荷することです。"
+        },
+        {
+          "question": "It's Fine は誰が開発し、どこでプレイできますか？",
+          "answer": "It's Fine は Buma Games が開発し、Buma Games with SpaceJazz がパブリッシュしました。2026年9月23日に Steam で $9.99 で発売され、10月7日まで10%のローンチ割引が適用されました。"
+        },
+        {
+          "question": "It's Fine の進行はどのように進みますか？",
+          "answer": "It's Fine ではパソコンでコードを書き、アップグレードステーションに投資し、リソースの生産方法を変えるメカニクスを解放していきます。ランが停滞したら眠って Sleephours を稼ぎ、Dreamtree で永続アップグレードに使いましょう。"
+        },
+        {
+          "question": "It's Fine の Sleephours と Dreamtree とは？",
+          "answer": "Sleephours は It's Fine のプレステージ通貨で、ランの最後に眠ることで獲得します。Dreamtree はメタ進行ツリーで、永続ボーナス、新しいメカニクス、再スタートのたびに引き継がれる効果に Sleephours を使います。"
+        },
+        {
+          "question": "It's Fine の実績はいくつありますか？",
+          "answer": "It's Fine には67個の Steam 実績があります。標準52個、隠し14個、シークレット1個です。永続的に取り逃すものはないので、ゲームクリア後にまとめて回収できます。"
+        },
+        {
+          "question": "It's Fine には複数のエンディングや秘密がありますか？",
+          "answer": "はい。It's Fine には隠された秘密、任意のチャレンジ目標、そして version 1.0 の届け方によって分岐する複数の別エンディングがあり、コンプリートを目指すプレイヤーが新たなサイクルを続ける理由になっています。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "It's Fine を探索する準備はできましたか？",
+      "description": "最初の一歩から最後のエンディングまで、コミュニティウィキが無料で最新のガイドをお届けします。",
+      "primary": "攻略を読む",
+      "secondary": "Steam でプレイ"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "有効なコード",
+    "updated": "更新",
+    "viewAllCodes": "すべてのコードを見る",
+    "playOnRoblox": "Roblox でプレイ",
+    "inThisSection": "このセクションの内容",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "助けが必要ですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "まだガイドがありません。近日公開予定ですので、ぜひまたお越しください！"
+  },
+  "footer": {
+    "aboutTitle": "It's Fine Wiki",
+    "about": "It's Fine Wiki は、攻略、ストーリーの詳細、エンディング、実績、そして必須のゲーム知識を扱う、ファンによる独立系ガイドハブです。新規プレイヤーにもベテランにも役立ちます。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "2026 It's Fine Wiki. 本ゲームの開発元・販売元とは提携していません。",
+    "description": "探索、雰囲気、物語をめぐるインディー感動作。",
+    "playGame": "Steam で It's Fine をプレイ",
+    "officialDiscord": "コミュニティ Discord",
+    "officialYoutube": "公式 YouTube",
+    "beginnerGuide": "初心者ガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約",
+    "mechanicsGuides": "ゲームメカニクス",
+    "progressionGuides": "進行",
+    "achievementGuides": "実績"
+  }
+}

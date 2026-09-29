@@ -1,1 +1,517 @@
-{}
+{
+  "site": {
+    "name": "It's Fine Wiki",
+    "shortName": "It's Fine",
+    "tagline": "Guías, walkthroughs, historia y finales",
+    "description": "¡Tu guía definitiva de It's Fine! Explora walkthroughs de gameplay, detalles de la historia, finales, logros, secretos y guías de progresión de esta aventura indie emocional.",
+    "legalNotice": "Wiki de fans no oficial. Hecha por jugadores, para jugadores."
+  },
+  "nav": {
+    "home": "Inicio",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema",
+    "guide": "Guía",
+    "mechanics": "Mecánicas",
+    "progression": "Progresión",
+    "achievements": "Logros",
+    "videos": "Vídeos",
+    "steam": "Steam"
+  },
+  "guide": {
+    "overviewTitle": "Guía de It's Fine — Walkthrough para principiantes, consejos y tutoriales",
+    "overviewDescription": "¿Nuevo en It's Fine? Empieza aquí con la guía para principiantes, el walkthrough completo y consejos sobre el bucle de programación, las estaciones de mejora, las Sleephours, el Dreamtree y los errores que debes evitar al principio."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de It's Fine — Sistemas idle, incremental y de automatización",
+    "overviewDescription": "Cómo funciona realmente It's Fine: el bucle idle incremental, la automatización del código, las estaciones que evolucionan y los sistemas de crunch del desarrollo que impulsan cada partida."
+  },
+  "progression": {
+    "overviewTitle": "Progresión de It's Fine — Mejoras, desbloqueos, partida guardada y finales",
+    "overviewDescription": "Planifica tu partida con las guías de progresión y mejoras de It's Fine, listas de desbloqueos, notas sobre el archivo de guardado y todos los finales explicados."
+  },
+  "achievements": {
+    "overviewTitle": "Logros de It's Fine — Los 67 desbloqueos, completado y final",
+    "overviewDescription": "Consigue todos los logros de It's Fine con listas completas de desbloqueos, una lista de comprobación para el completado y guías del final para el 100 %."
+  },
+  "videos": {
+    "overviewTitle": "Vídeos de It's Fine — Tráiler, Part 1 y análisis de gameplay",
+    "overviewDescription": "Mira el tráiler de It's Fine, el walkthrough de la Part 1, análisis de episodios y vídeos de gameplay, todo reunido en un mismo sitio."
+  },
+  "steam": {
+    "overviewTitle": "It's Fine en Steam — Lanzamiento, demo, desarrollador y reseñas",
+    "overviewDescription": "Todo sobre It's Fine en Steam: la fecha de lanzamiento, la demo jugable, el desarrollador Buma Games y lo que dicen los jugadores en sus reseñas."
+  },
+  "home": {
+    "meta": {
+      "title": "It's Fine Wiki — Guía, gameplay y walkthrough",
+      "description": "Explora It's Fine Wiki para encontrar guías de gameplay, walkthroughs, detalles de la historia, consejos e información útil para entender la experiencia única del juego."
+    },
+    "hero": {
+      "eyebrow": "Aventura indie emocional",
+      "title": "It's Fine Wiki",
+      "description": "It's Fine es un juego de estilo indie centrado en las experiencias emocionales, la exploración y el descubrimiento del significado que hay detrás de su atmósfera y su historia tan peculiares.",
+      "stats": [
+        "Walkthrough completo",
+        "Historia y finales",
+        "Logros",
+        "Consejos y secretos"
+      ],
+      "primaryCta": "Walkthrough completo",
+      "secondaryCta": "Historia y finales",
+      "tertiaryCta": "Jugar en Steam",
+      "videoLabel": "Walkthrough de gameplay"
+    },
+    "updates": {
+      "title": "Últimas novedades",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje por It's Fine",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Aprende el bucle de código, mejoras y sueño, pon en marcha tus primeras estaciones y sobrevive al crunch inicial sin desperdiciar una partida."
+        },
+        {
+          "number": "2",
+          "title": "Prioridades de mejora",
+          "description": "Compara rutas de mejora y multiplicadores para saber qué estación comprar a continuación en el camino hacia la versión 1.0."
+        },
+        {
+          "number": "3",
+          "title": "Farmeo de recursos",
+          "description": "Mantén en marcha el código, el cómputo, las listas de deseos y la energía limpia con cadenas de producción fiables y automatización temprana."
+        },
+        {
+          "number": "4",
+          "title": "Prestigio y Dreamtree",
+          "description": "Convierte las partidas terminadas en Sleephours y gástalas en mejoras permanentes del Dreamtree que transforman cada reinicio."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias ahora",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Prioridades de mejora",
+        "Sleephours",
+        "Todos los logros"
+      ],
+      "cards": [
+        {
+          "badge": "Principiante",
+          "title": "Guía para principiantes",
+          "description": "Empieza el crunch con una ruta clara por tus primeras estaciones, mejoras y el reinicio por sueño.",
+          "href": "/guide/it-s-fine-beginner-guide"
+        },
+        {
+          "badge": "Actualizado",
+          "title": "Prioridades de mejora",
+          "description": "Qué estaciones y multiplicadores merecen realmente la pena durante una partida.",
+          "href": "/progression/it-s-fine-upgrades"
+        },
+        {
+          "badge": "Popular",
+          "title": "Prestigio y Dreamtree",
+          "description": "Convierte las partidas terminadas en Sleephours y mejoras meta permanentes.",
+          "href": "/guide/it-s-fine-walkthrough"
+        },
+        {
+          "badge": "Popular",
+          "title": "Los 67 logros",
+          "description": "Todos los desbloqueos estándar, ocultos y secretos con una ruta de completado clara.",
+          "href": "/achievements/it-s-fine-achievements"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Configuración de automatización",
+          "description": "Crea un bucle de producción desatendido que siga programando mientras planificas.",
+          "href": "/mechanics/it-s-fine-automation"
+        },
+        {
+          "badge": "Popular",
+          "title": "Secretos y finales",
+          "description": "Interacciones ocultas, desafíos y todos los finales alternativos.",
+          "href": "/progression/it-s-fine-endings"
+        },
+        {
+          "badge": "Popular",
+          "title": "Mecánicas principales",
+          "description": "Cómo encajan acciones, recursos, progresión y riesgo.",
+          "href": "/mechanics/it-s-fine-mechanics"
+        },
+        {
+          "badge": "Nuevo",
+          "title": "Lanzamiento y novedades",
+          "description": "Detalles del lanzamiento, precio y parches posteriores.",
+          "href": "/steam/it-s-fine-release"
+        },
+        {
+          "badge": "Popular",
+          "title": "Reseña de Steam",
+          "description": "Qué opinan los jugadores del idle game sobre el crunch de desarrollo liderado por un perro.",
+          "href": "/steam/it-s-fine-steam"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es It's Fine?",
+      "paragraphs": [
+        "It's Fine es un juego casual de idle e incremental sobre sobrevivir a las últimas 24 horas del crunch de desarrollo de un juego indie. Tú interpretas al desarrollador, tu jefe de proyecto es Joe, un perro exigente con ideas muy firmes sobre entregar a tiempo, y tu objetivo es sacar una build estable antes de que se acabe el tiempo. Se lanzó en Steam el 23 de septiembre de 2026, desarrollado por Buma Games y publicado con SpaceJazz.",
+        "Bajo las bromas se esconde un simulador de producción por capas. Programas en el ordenador, inviertes en estaciones de mejora y desbloqueas mecánicas que evolucionan, como la botfarm de listas de deseos, el legendario Voodoo Kraken y Peanut la ardilla. Cuando una partida se ralentiza, duermes para ganar Sleephours y luego las gastas en el Dreamtree en bonificaciones permanentes, nuevas mecánicas y efectos que se mantienen en cada reinicio. Con 67 logros, secretos ocultos y varios finales, cada ciclo cambia cómo se juega el siguiente."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Buma Games"
+        },
+        {
+          "label": "Distribuidora",
+          "value": "SpaceJazz"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Steam (PC)"
+        },
+        {
+          "label": "Género",
+          "value": "Idle / Incremental"
+        },
+        {
+          "label": "Lanzamiento",
+          "value": "23 de septiembre de 2026"
+        },
+        {
+          "label": "Precio",
+          "value": "$9.99"
+        },
+        {
+          "label": "Logros",
+          "value": "67"
+        },
+        {
+          "label": "Valoración en Steam",
+          "value": "Muy positiva"
+        }
+      ],
+      "cta": "Explorar todas las guías"
+    },
+    "explore": {
+      "title": "Explora It's Fine Wiki",
+      "description": "Todo lo que necesitas para sacar la versión 1.0: pasos para principiantes, prioridades de mejora, planificación del prestigio, cadenas de recursos, secretos y todos los logros de It's Fine.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Guía para principiantes de It's Fine",
+          "description": "Un walkthrough para principiantes del bucle de código, mejora y sueño, que cubre tus primeras estaciones, las compras tempranas y los errores que estancan una partida nueva.",
+          "href": "/guide/it-s-fine-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Confirma la build de Steam y ajusta el tamaño del texto, las alternativas de color y el volumen antes de empezar."
+            },
+            {
+              "label": "2",
+              "detail": "Mantén pulsado el ordenador para programar y completa el primer objetivo del tutorial."
+            },
+            {
+              "label": "3",
+              "detail": "Compra tu primera mejora de producción para que los ingresos continúen mientras planificas el siguiente movimiento."
+            },
+            {
+              "label": "4",
+              "detail": "Desbloquea los servicios en la nube y la botfarm para añadir una segunda capa de recursos automatizada."
+            },
+            {
+              "label": "5",
+              "detail": "Comprueba si hay un botón de activación aparte después de comprar o instalar una estación."
+            },
+            {
+              "label": "6",
+              "detail": "Duerme cuando la partida se ralentice y una bonificación duradera valga más que la producción a corto plazo."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía de mejoras de It's Fine",
+          "description": "Clasifica las mejoras y las estaciones que de verdad hacen avanzar una partida, para que gastes el código en producción acumulativa y no en callejones sin salida estéticos.",
+          "href": "/progression/it-s-fine-upgrades",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Multiplicadores y mejoras de tick automático que se acumulan en toda la sala."
+            },
+            {
+              "label": "A",
+              "detail": "Eficiencia de estación y cómputo en la nube que elevan la producción antes de los grandes desbloqueos."
+            },
+            {
+              "label": "B",
+              "detail": "Mejoras baratas de potencia de clic que sostienen los primeros minutos y poco más."
+            },
+            {
+              "label": "C",
+              "detail": "Objetos decorativos de la sala sin efecto medible en la curva de producción."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de prestigio de It's Fine",
+          "description": "Explica la capa de prestigio, desde dormir para conseguir Sleephours hasta gastarlas en el Dreamtree en meta-mejoras permanentes que se mantienen entre partidas.",
+          "href": "/guide/it-s-fine-walkthrough",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Dormir",
+              "detail": "Termina la partida actual y convierte tu progreso en Sleephours."
+            },
+            {
+              "label": "Sleephours",
+              "detail": "Moneda de prestigio descrita en el juego como el recurso más valioso que tiene un desarrollador."
+            },
+            {
+              "label": "Dreamtree",
+              "detail": "Árbol de meta-mejoras permanente que desbloquea nuevas mecánicas y efectos duraderos."
+            },
+            {
+              "label": "Overdrive",
+              "detail": "Objetivos de desafío que llevan una partida más lejos y desbloquean efectos especiales."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Guía de logros de It's Fine",
+          "description": "Hace seguimiento de los 67 logros de Steam, separa los desbloqueos fáciles de los que requieren farmeo y traza una ruta limpia hacia el completado total.",
+          "href": "/achievements/it-s-fine-achievements",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "67 en total",
+              "detail": "52 logros estándar, 14 ocultos y 1 secreto en la versión de lanzamiento."
+            },
+            {
+              "label": "Caza segura",
+              "detail": "Nada se puede perder de forma permanente, así que puedes hacer la limpieza después de los créditos."
+            },
+            {
+              "label": "Overdrive",
+              "detail": "Objetivos de desafío que llevan las partidas más lejos y desbloquean efectos especiales."
+            },
+            {
+              "label": "Aspectos de Joe",
+              "detail": "Varios desbloqueos otorgan aspectos estéticos para Joe, tu perro jefe de proyecto."
+            },
+            {
+              "label": "Café",
+              "detail": "El desbloqueo de la máquina de café está detrás de uno de los hitos más raros."
+            },
+            {
+              "label": "Lista de comprobación",
+              "detail": "Las entradas ocultas y secretas permanecen invisibles hasta que las consigues de verdad."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía de secretos de It's Fine",
+          "description": "Señala las interacciones ocultas, los desafíos opcionales y los finales alternativos que la mayoría de los jugadores nunca ve en una primera partida.",
+          "href": "/progression/it-s-fine-endings",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Finales",
+              "detail": "Varios finales alternativos dependen de cómo entregues la versión 1.0."
+            },
+            {
+              "label": "Secretos",
+              "detail": "Las interacciones ocultas y el comportamiento inusual de las estaciones recompensan la curiosidad paciente."
+            },
+            {
+              "label": "Desafíos",
+              "detail": "Objetivos opcionales como prender fuego a la sala desbloquean efectos especiales."
+            },
+            {
+              "label": "Voodoo",
+              "detail": "El Voodoo Kraken es uno de los sistemas ocultos más extraños que puedes domesticar."
+            },
+            {
+              "label": "Peanut",
+              "detail": "Peanut la ardilla muta y empieza a lanzar rayos por todo el estudio."
+            },
+            {
+              "label": "Créditos",
+              "detail": "El contenido posterior a los créditos mantiene todos los secretos disponibles después del objetivo principal."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de recursos de It's Fine",
+          "description": "Desglosa cada cadena de recursos de la sala, desde el código bruto hasta el cómputo, las listas de deseos, la energía limpia y la moneda de prestigio.",
+          "href": "/mechanics/it-s-fine-automation",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Código",
+              "detail": "Tu primer recurso, producido manteniendo pulsado el ordenador y, más tarde, por estaciones automatizadas."
+            },
+            {
+              "label": "Cómputo",
+              "detail": "Los servicios en la nube convierten el código y la infraestructura en cómputo para mejoras más profundas."
+            },
+            {
+              "label": "Listas de deseos",
+              "detail": "La botfarm de marketing genera listas de deseos como una moneda automatizada aparte."
+            },
+            {
+              "label": "Energía",
+              "detail": "Peanut la ardilla suministra energía limpia hasta que evoluciona a una forma de rayo."
+            },
+            {
+              "label": "Sleephours",
+              "detail": "Moneda de prestigio que se gana durmiendo y se gasta en nodos permanentes del Dreamtree."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Guía de personajes de It's Fine",
+          "description": "Presenta al reparto que da personalidad al crunch, incluido Joe el perro jefe de proyecto, Peanut y el Voodoo Kraken.",
+          "href": "/mechanics/it-s-fine-mechanics",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Desarrollador",
+              "detail": "Interpretas al desarrollador indie sin nombre que corre contra el crunch final de 24 horas."
+            },
+            {
+              "label": "Joe",
+              "detail": "Tu jefe de proyecto es un perro exigente con ideas muy firmes sobre los plazos."
+            },
+            {
+              "label": "Peanut",
+              "detail": "Una ardilla que produce energía limpia y luego evoluciona a una caótica forma de rayo."
+            },
+            {
+              "label": "Kraken",
+              "detail": "El Voodoo Kraken es una criatura legendaria que domesticas para conseguir recursos únicos."
+            },
+            {
+              "label": "Marketing",
+              "detail": "El equipo de marketing convierte las listas de deseos de la botfarm en producción promocional automatizada."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Guía de novedades de It's Fine",
+          "description": "Reúne noticias del lanzamiento, notas del parche y cambios posteriores para que puedas seguir cómo sigue evolucionando It's Fine después del lanzamiento.",
+          "href": "/steam/it-s-fine-release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Lanzamiento",
+              "detail": "It's Fine se lanzó en Steam el 23 de septiembre de 2026 por $9.99."
+            },
+            {
+              "label": "10 000 ventas",
+              "detail": "El equipo de dos personas superó las 10 000 copias vendidas en unas 24 horas."
+            },
+            {
+              "label": "Demo",
+              "detail": "Una build de demo en Steam te permite probar el crunch inicial antes de comprar."
+            },
+            {
+              "label": "Parches",
+              "detail": "Los cambios de equilibrio y las nuevas mecánicas siguen llegando después del lanzamiento."
+            },
+            {
+              "label": "Reseñas",
+              "detail": "La página de Steam mantiene una valoración de «Muy positiva» en cientos de reseñas."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Respuestas rápidas a las preguntas más comunes sobre It's Fine.",
+      "items": [
+        {
+          "question": "¿Qué es It's Fine?",
+          "answer": "It's Fine es un juego casual de idle e incremental sobre sobrevivir a las últimas 24 horas del crunch de desarrollo de un juego indie. Interpretas al desarrollador, tu jefe de proyecto es un perro llamado Joe y el objetivo es sacar una build estable antes de que se acabe el tiempo."
+        },
+        {
+          "question": "¿Quién desarrolló It's Fine y dónde puedo jugarlo?",
+          "answer": "It's Fine fue desarrollado por Buma Games y publicado por Buma Games con SpaceJazz. Se lanzó en Steam el 23 de septiembre de 2026 por $9.99, con un 10 % de descuento de lanzamiento hasta el 7 de octubre."
+        },
+        {
+          "question": "¿Cómo funciona la progresión en It's Fine?",
+          "answer": "En It's Fine programas en el ordenador, inviertes en estaciones de mejora y desbloqueas mecánicas que cambian cómo se producen los recursos. Cuando una partida se ralentiza, duermes para ganar Sleephours y las gastas en el Dreamtree en mejoras permanentes."
+        },
+        {
+          "question": "¿Qué son las Sleephours y el Dreamtree en It's Fine?",
+          "answer": "Las Sleephours son la moneda de prestigio de It's Fine, que se gana durmiendo al final de una partida. El Dreamtree es el árbol de meta-progresión donde las gastas en bonificaciones permanentes, nuevas mecánicas y efectos que se mantienen en cada reinicio."
+        },
+        {
+          "question": "¿Cuántos logros tiene It's Fine?",
+          "answer": "It's Fine incluye 67 logros de Steam: 52 estándar, 14 ocultos y 1 secreto. Ninguno se puede perder de forma permanente, así que la limpieza para el completado puede hacerse después de terminar el juego."
+        },
+        {
+          "question": "¿It's Fine tiene varios finales y secretos?",
+          "answer": "Sí. It's Fine incluye secretos ocultos, objetivos de desafío opcionales y varios finales alternativos ligados a cómo entregues la versión 1.0, lo que da a los completistas una razón para seguir haciendo nuevos ciclos."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para explorar It's Fine?",
+      "description": "Desde tus primeros pasos hasta el final definitivo, nuestra wiki comunitaria te acompaña con guías gratuitas y actualizadas.",
+      "primary": "Leer el walkthrough",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Aún no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "It's Fine Wiki",
+    "about": "It's Fine Wiki es un centro de guías independiente creado por fans que abarca walkthroughs, detalles de la historia, finales, logros y conocimientos esenciales del juego, tanto para jugadores nuevos como veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "2026 It's Fine Wiki. Sin afiliación con los desarrolladores ni los editores del juego.",
+    "description": "Una aventura indie emocional sobre exploración, atmósfera e historia.",
+    "playGame": "Jugar a It's Fine en Steam",
+    "officialDiscord": "Discord de la comunidad",
+    "officialYoutube": "YouTube oficial",
+    "beginnerGuide": "Guía para principiantes",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio",
+    "mechanicsGuides": "Mecánicas del juego",
+    "progressionGuides": "Progresión",
+    "achievementGuides": "Logros"
+  }
+}
